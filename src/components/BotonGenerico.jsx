@@ -12,6 +12,7 @@ export function BotonGenerico ({
         'primario',
         'secundario',
         'danger',
+        'carrito'
     ];
     const tipoValido = tiposDeBoton.includes(tipo) ? tipo : 'primario';
 
