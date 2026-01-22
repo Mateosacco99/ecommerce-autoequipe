@@ -1,4 +1,4 @@
-import '../styles/navBar.scss';
+import '../styles/navBar.module.scss';
 import Cart from './Cart';
 import AutoEquipe from '../assets/AutoEquipe.png';
 
