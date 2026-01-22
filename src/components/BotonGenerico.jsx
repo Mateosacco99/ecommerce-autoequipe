@@ -1,4 +1,4 @@
-import styles from '../styles/botonGenerico.module.css';
+import styles from '../styles/botonGenerico.module.scss';
 
 export function BotonGenerico ({
     tipo = 'primario',
