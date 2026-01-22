@@ -1,7 +1,9 @@
+import { FaCartPlus } from "react-icons/fa6";
+
 const Cart = () => {
     return (
         <div>
-            <span>🛒</span>
+            <span><FaCartPlus /></span>
         </div>
     );
 }
