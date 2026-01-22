@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <ItemListContainer mensaje="Welcome to AutoEquipe!" />
+      <ItemListContainer mensaje="Bienvenidos a AutoEquipe!" />
       <ItemCount />
     </>
   )
