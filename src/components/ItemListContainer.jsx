@@ -1,9 +1,26 @@
 import styles from '../styles/itemListcontainer.module.scss';
+import { getProductos } from '../mock/AsyncMock';
+import { useEffect, useState } from 'react';
+import ItemList from './ItemList';
+
 
 const ItemListContainer = (props) => {
+
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        getProductos()
+            .then(respuesta => setData(respuesta))
+            .catch(error => console.log(error));
+    }, []);
+
     return (
         <div>
             <h1 className={styles.h1}>{props.mensaje}</h1>
+
+            {/* data.map((producto => <p key={producto.id}>{producto.nombre}</p> )) */}
+
+            <ItemList data={data} />
         </div>
     );
 }
