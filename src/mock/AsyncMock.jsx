@@ -6,7 +6,7 @@ const productos = [
         stock: 10,
         precio: 100,
         categoria: 'categoria 1',
-        imagen: 'url de imagen'
+        imagen: 'url de imagenn'
     },
     {
         id: 2,
