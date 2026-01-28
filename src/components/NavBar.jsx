@@ -1,6 +1,6 @@
 import styles from '../styles/navBar.module.scss';
 import Cart from './CartWidget';
-import AutoEquipe from '../assets/AutoEquipe.png';
+import AutoEquipe from '../../public/AutoEquipe.png';
 import { BotonGenerico } from './BotonGenerico';
 
 const NavBar = () => {
