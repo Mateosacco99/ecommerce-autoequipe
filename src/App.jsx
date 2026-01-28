@@ -9,6 +9,7 @@ function App() {
     <>
       <NavBar />
       <ItemListContainer mensaje="Bienvenidos a AutoEquipe!" />
+      <ItemCount/>
     </>
   )
 }
